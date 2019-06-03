@@ -27,10 +27,11 @@ There are 4 steps to this install
 For copying your theme. Simply copy the theme directory to the plymouth theme directory, usually located at _/usr/share/plymouth/themes_
 
 _Note: Please be root when running the following_
+_Note1: Please replace the themeDir with whatever ur Theme's directory is_
 
 ```
 # cp -R themeDir /usr/share/plymouth/themes/
-# mv /usr/share/plymouth/themes/themeDir/ /usr/share/plymouth/themes/themeName/
+# mv /usr/share/plymouth/themes/themeDir/ /usr/share/plymouth/themes/
 ```
 
 ## Installing
